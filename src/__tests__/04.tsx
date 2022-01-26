@@ -1,6 +1,6 @@
 import {renderToggle, screen, userEvent} from '../../test/utils'
-import App from '../final/04'
-// import App from '../exercise/04'
+// import App from '../final/04'
+import App from '../exercise/04'
 
 test('renders a toggle component', () => {
   const {getToggle, toggle} = renderToggle(<App />)
